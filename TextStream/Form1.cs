@@ -149,6 +149,13 @@ namespace TextStream
                             var writer = new BinaryWriter(newClient.GetStream(), Encoding.UTF8, true);
                             writer.Write((byte)0x03); // control message type
                             writer.Write(allowClientSend); // send server's checkbox state
+
+                            // Send full current text to client
+                            string currentText = "";
+                            Invoke((MethodInvoker)(() => currentText = txtStream.Text)); // UI-safe
+                            writer.Write((byte)0x01); // text message type
+                            writer.Write(currentText);
+
                             writer.Flush();
 
                             AppendStatus("New client connected: " + newClient.Client.RemoteEndPoint.ToString());
@@ -435,11 +442,7 @@ namespace TextStream
                 clients.Remove(client);
 
 
-                if (clients.Count == 0)
-                {
-                    AppendStatus("All clients have disconnected.");
-                }
-                else
+                if (clients.Count > 1)
                 {
                     AppendStatus($"Remaining connected clients: {clients.Count}");
                 }
