@@ -168,7 +168,8 @@ namespace TextStream
                     }
                 })
                 { IsBackground = true }.Start();
-            }catch (SocketException ex)
+            }
+            catch (SocketException ex)
             {
                 AppendStatus("Another instance is already running on the same Port...");
             }
@@ -701,6 +702,12 @@ namespace TextStream
                     }
                 }
             }
+        }
+
+        private void ABOUT_Click(object sender, EventArgs e)
+        {
+            Form2 aboutForm = new Form2();
+            aboutForm.Show(); // Opens Form2 without blocking Form1
         }
     }
 }

@@ -46,6 +46,7 @@
             btnSave = new Button();
             btnClear = new Button();
             chkAllowClientSend = new CheckBox();
+            ABOUT = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -117,6 +118,7 @@
             // 
             panel1.BackColor = Color.Black;
             panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(ABOUT);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label2);
             panel1.Location = new Point(-2, -2);
@@ -233,6 +235,19 @@
             chkAllowClientSend.UseVisualStyleBackColor = true;
             chkAllowClientSend.CheckedChanged += checkBox1_CheckedChanged;
             // 
+            // ABOUT
+            // 
+            ABOUT.FlatStyle = FlatStyle.Flat;
+            ABOUT.Font = new Font("UniDreamLED", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ABOUT.ForeColor = Color.FromArgb(0, 192, 0);
+            ABOUT.Location = new Point(452, 34);
+            ABOUT.Name = "ABOUT";
+            ABOUT.Size = new Size(130, 29);
+            ABOUT.TabIndex = 14;
+            ABOUT.Text = "ABOUT ME";
+            ABOUT.UseVisualStyleBackColor = true;
+            ABOUT.Click += ABOUT_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -288,5 +303,6 @@
         private Button btnSave;
         private Button btnClear;
         private CheckBox chkAllowClientSend;
+        private Button ABOUT;
     }
 }

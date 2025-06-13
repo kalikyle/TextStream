@@ -33,3 +33,4 @@ F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\refint\TextS
 F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.pdb
 F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.genruntimeconfig.cache
 F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\ref\TextStream.dll
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.Form2.resources

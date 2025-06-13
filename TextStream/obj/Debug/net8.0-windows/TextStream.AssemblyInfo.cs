@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextStream")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a76430b608957ae7ae533f0c7a403ba6eab0dff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31b459c61ec0eae8ed8a2c4c141ea707f636321")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextStream")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextStream")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

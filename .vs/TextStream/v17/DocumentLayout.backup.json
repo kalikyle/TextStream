@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "F:\\GitHub Misc Repos\\TextStream\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|f:\\github misc repos\\textstream\\textstream\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|solutionrelative:textstream\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|f:\\github misc repos\\textstream\\textstream\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|solutionrelative:textstream\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|F:\\GitHub Misc Repos\\TextStream\\textstream\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -13,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|f:\\github misc repos\\textstream\\textstream\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|solutionrelative:textstream\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|f:\\github misc repos\\textstream\\textstream\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|solutionrelative:textstream\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|f:\\github misc repos\\textstream\\textstream\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EE3214-90E4-4B4A-88AF-B852C725B572}|TextStream\\TextStream.csproj|solutionrelative:textstream\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form2.cs",
+              "RelativeDocumentMoniker": "TextStream\\Form2.cs",
+              "ToolTip": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form2.cs",
+              "RelativeToolTip": "TextStream\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:49:57.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form2.cs",
+              "RelativeDocumentMoniker": "TextStream\\Form2.cs",
+              "ToolTip": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form2.cs [Design]",
+              "RelativeToolTip": "TextStream\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:42:15.26Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -44,20 +77,20 @@
               "RelativeDocumentMoniker": "TextStream\\Form1.Designer.cs",
               "ToolTip": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form1.Designer.cs",
               "RelativeToolTip": "TextStream\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T14:41:30.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form1.cs",
               "RelativeDocumentMoniker": "TextStream\\Form1.cs",
               "ToolTip": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\Form1.cs",
               "RelativeToolTip": "TextStream\\Form1.cs",
-              "ViewState": "AgIAAKkBAAAAAAAAAAAkwMcBAAApAAAAAAAAAA==",
+              "ViewState": "AgIAALECAAAAAAAAAAAAAMUCAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T13:38:16.478Z",
               "EditorCaption": ""
