@@ -15,3 +15,21 @@ C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Debug\net8.0-window
 C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.genruntimeconfig.cache
 C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Debug\net8.0-windows\ref\TextStream.dll
 C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.Properties.Resources.resources
+F:\GitHub Misc Repos\TextStream\TextStream\bin\Debug\net8.0-windows\TextStream.exe
+F:\GitHub Misc Repos\TextStream\TextStream\bin\Debug\net8.0-windows\TextStream.deps.json
+F:\GitHub Misc Repos\TextStream\TextStream\bin\Debug\net8.0-windows\TextStream.runtimeconfig.json
+F:\GitHub Misc Repos\TextStream\TextStream\bin\Debug\net8.0-windows\TextStream.dll
+F:\GitHub Misc Repos\TextStream\TextStream\bin\Debug\net8.0-windows\TextStream.pdb
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.Form1.resources
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.Properties.Resources.resources
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.csproj.GenerateResource.cache
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.AssemblyInfoInputs.cache
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.AssemblyInfo.cs
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.csproj.CoreCompileInputs.cache
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.sourcelink.json
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.dll
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\refint\TextStream.dll
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.pdb
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\TextStream.genruntimeconfig.cache
+F:\GitHub Misc Repos\TextStream\TextStream\obj\Debug\net8.0-windows\ref\TextStream.dll

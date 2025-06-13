@@ -115,50 +115,56 @@ namespace TextStream
 
         void StartServer()
         {
-            if (!TryGetPort(out int port)) return;
-
-            server = new TcpListener(IPAddress.Any, port);
-            server.Start();
-            isRunning = true;
-            AppendStatus("Server started at " + GetLocalIPAddress() + ":" + port);
-
-            cmbMode.Enabled = false;
-            txtServerIP.Enabled = false;
-            txtPort.Enabled = false;
-            chkAllowClientSend.Enabled = false;
-            button1.Enabled = true;
-            this.AllowDrop = true;
-            btnStart.Text = "Disconnect";
-            btnStart.ForeColor = Color.Red;
-
-            new Thread(() =>
+            try
             {
-                while (isRunning)
+                if (!TryGetPort(out int port)) return;
+
+                server = new TcpListener(IPAddress.Any, port);
+                server.Start();
+                isRunning = true;
+                AppendStatus("Server started at " + GetLocalIPAddress() + ":" + port);
+
+                cmbMode.Enabled = false;
+                txtServerIP.Enabled = false;
+                txtPort.Enabled = false;
+                chkAllowClientSend.Enabled = false;
+                button1.Enabled = true;
+                this.AllowDrop = true;
+                btnStart.Text = "Disconnect";
+                btnStart.ForeColor = Color.Red;
+
+                new Thread(() =>
                 {
-                    try
+                    while (isRunning)
                     {
-                        TcpClient newClient = server.AcceptTcpClient();
-                        lock (clientLock)
+                        try
                         {
-                            clients.Add(newClient);
+                            TcpClient newClient = server.AcceptTcpClient();
+                            lock (clientLock)
+                            {
+                                clients.Add(newClient);
+                            }
+
+                            bool allowClientSend = chkAllowClientSend.Checked;
+                            var writer = new BinaryWriter(newClient.GetStream(), Encoding.UTF8, true);
+                            writer.Write((byte)0x03); // control message type
+                            writer.Write(allowClientSend); // send server's checkbox state
+                            writer.Flush();
+
+                            AppendStatus("New client connected: " + newClient.Client.RemoteEndPoint.ToString());
+                            new Thread(() => ReadClientStream(newClient)) { IsBackground = true }.Start();
                         }
-
-                        bool allowClientSend = chkAllowClientSend.Checked;
-                        var writer = new BinaryWriter(newClient.GetStream(), Encoding.UTF8, true);
-                        writer.Write((byte)0x03); // control message type
-                        writer.Write(allowClientSend); // send server's checkbox state
-                        writer.Flush();
-
-                        AppendStatus("New client connected: " + newClient.Client.RemoteEndPoint.ToString());
-                        new Thread(() => ReadClientStream(newClient)) { IsBackground = true }.Start();
+                        catch
+                        {
+                            break; // Server stopped
+                        }
                     }
-                    catch
-                    {
-                        break; // Server stopped
-                    }
-                }
-            })
-            { IsBackground = true }.Start();
+                })
+                { IsBackground = true }.Start();
+            }catch (SocketException ex)
+            {
+                AppendStatus("Another instance is already running on the same Port...");
+            }
         }
 
 
@@ -541,6 +547,7 @@ namespace TextStream
                             txtStream.ReadOnly = !allowClientSend;
                             button1.Enabled = allowClientSend;
                             this.AllowDrop = allowClientSend;
+                            btnClear.Enabled = allowClientSend;
                             lblCurrentFile.Text = allowClientSend
                                 ? "Ready to stream files."
                                 : "Client is not allowed to stream text or files.";
@@ -586,6 +593,7 @@ namespace TextStream
             txtServerIP.Enabled = true;
             txtPort.Enabled = true;
             chkAllowClientSend.Enabled = true;
+            btnClear.Enabled = true;
             button1.Enabled = false;
             this.AllowDrop = false;
             btnStart.Text = "Start";
