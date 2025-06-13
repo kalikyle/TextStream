@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Garage88fort\\source\\repos\\TextStream\\TextStream\\TextStream.csproj",
+      "projectUniqueName": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\TextStream.csproj",
       "projectName": "TextStream",
-      "projectPath": "C:\\Users\\Garage88fort\\source\\repos\\TextStream\\TextStream\\TextStream.csproj",
+      "projectPath": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\TextStream.csproj",
       "packagesPath": "C:\\Users\\Garage88fort\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Garage88fort\\source\\repos\\TextStream\\TextStream\\obj\\",
+      "outputPath": "F:\\GitHub Misc Repos\\TextStream\\TextStream\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Garage88fort\\AppData\\Roaming\\NuGet\\NuGet.Config",
