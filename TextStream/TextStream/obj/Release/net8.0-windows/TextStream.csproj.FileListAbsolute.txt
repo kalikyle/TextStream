@@ -1,0 +1,17 @@
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\bin\Release\net8.0-windows\TextStream.exe
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\bin\Release\net8.0-windows\TextStream.dll
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.Form1.resources
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.csproj.GenerateResource.cache
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.AssemblyInfoInputs.cache
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.AssemblyInfo.cs
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.csproj.CoreCompileInputs.cache
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.dll
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\refint\TextStream.dll
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.pdb
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\bin\Release\net8.0-windows\TextStream.deps.json
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\bin\Release\net8.0-windows\TextStream.runtimeconfig.json
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\bin\Release\net8.0-windows\TextStream.pdb
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.genruntimeconfig.cache
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\ref\TextStream.dll
+C:\Users\Garage88fort\source\repos\TextStream\TextStream\obj\Release\net8.0-windows\TextStream.Properties.Resources.resources
